@@ -1,0 +1,55 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  width: 100%;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 40%;
+}
+
+.home-header {
+  font-size: 28px;
+  text-transform: uppercase;
+  color: rgb(188, 209, 231);
+}
+
+.home-content h1 {
+  letter-spacing: 4px;
+  font-size: 100px;
+  text-transform: uppercase;
+}
+
+.home-description {
+  line-height: 1.6rem;
+  font-size: 18px;
+  color: rgb(188, 209, 231);
+}
+
+.home-button {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+
+.home-button button {
+  border: none;
+  outline: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 500;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.home-button button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
