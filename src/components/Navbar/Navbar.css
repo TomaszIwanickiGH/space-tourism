@@ -1,0 +1,48 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+
+  padding: 2rem 0;
+}
+
+.logo {
+  margin: 0 4rem;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.divider {
+  position: absolute;
+  z-index: 1;
+  height: 1.6px;
+  width: 500px;
+  background-color: rgb(56, 56, 56);
+}
+
+.navbar ul {
+  position: relative;
+  left: 470px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  list-style: none;
+  background: rgb(17, 21, 51);
+  background: linear-gradient(270deg, rgba(17, 21, 51, 0.7) 0%, rgba(18, 18, 18, 0.7) 100%, rgba(17, 21, 51, 0.7) 100%);
+
+  padding: 2rem;
+  width: 100%;
+}
+
+.navbar ul li:first-child {
+  margin-left: 4rem;
+}
+
+.navbar ul li:last-child {
+  margin-right: 4rem;
+}
