@@ -46,3 +46,12 @@
 .navbar ul li:last-child {
   margin-right: 4rem;
 }
+
+.navbar ul li {
+  padding-bottom: 1rem;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar ul li:hover {
+  color: rgb(188, 209, 231);
+}
