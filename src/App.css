@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.app-container {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
