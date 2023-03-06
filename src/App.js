@@ -7,10 +7,6 @@ import { Destination, Home, Navbar, Crew, Technology } from './components'
 const App = () => {
   const [background, setBackground] = useState(images.bgHomeDesktop)
 
-  useEffect(() => {
-    console.log('siema')
-  }, [background])
-
   const getData = (bgImage) => {
     setBackground(bgImage)
   }
@@ -21,6 +17,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/destination" element={<Destination />} />
+        <Route path="/destination/:id" element={<Destination />} />
         <Route path="/crew" element={<Crew />} />
         <Route path="/technology" element={<Technology />} />
       </Routes>
